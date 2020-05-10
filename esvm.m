@@ -1,12 +1,12 @@
 function [TrainingTime, TrainingAccuracy, TrainingSensitifity, TrainingSpecificity, TrainingAUC, TestingTime, TestingAccuracy, TestingSensitifity, TestingSpecificity, TestingAUC]= esvm(TrainingData_File, TestingData_File, C, NumberofHiddenNeurons, ActivationFunction)
 
-% Extreme Support Vector Machine (ESVM) merupakan metode SVM yang memanfaatkan ELM sebagai feature mapping. 
-% Metode optimasi yang digunakan untuk mencari hyperplane yang memisahkan dua kelas yang berbeda dalam suatu feature space 
+% Extreme Support Vector Machine (SVM) is an SVM that utilizes ELM as a feature mapping.
+% ELM is one of an algorithm in Artificial Neural Network has a single layer.
 % 
 % Input:
-% TrainingData_File     - Nama file data training
-% TestingData_File      - Nama file data testing
-% NumberofHiddenNeurons - Jummlah Hidden neuron yang digunakan
+% TrainingData_File     - training dataset
+% TestingData_File      - testing dataset
+% NumberofHiddenNeurons - number hidden neuron
 % ActivationFunction    - Type of activation function:
 %                           'sig' for Sigmoidal function
 %                           'sin' for Sine function
@@ -28,7 +28,7 @@ function [TrainingTime, TrainingAccuracy, TrainingSensitifity, TrainingSpecifici
 % TestingAUC
 % TestingTime
 % 
-% Contoh cara memanggila fungsi ESVM
+% How to execute ESVM function!
 % -----------------------------------------------------------------------------------------------
 % -> [TrainingTime, TrainingAccuracy, TrainingSensitifity, TrainingSpecificity, TrainingAUC,...<-
 % -> TestingTime, TestingAccuracy, TestingSensitifity, TestingSpecificity, TestingAUC] ...     <-
