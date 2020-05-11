@@ -1,6 +1,11 @@
 # Extreme-Support-Vector-Machine
 Extreme Support Vector Machine (SVM) is an SVM that utilizes ELM as a feature mapping. ELM is one of an algorithm in Artificial Neural Network has a single layer.
 
+Steps for executing this tool as follows:
+1) Prepare ESVM function in your directory.
+2) Prepare and load your classification problem.
+3) Please load call_me.md
+
 Refrences:
 * G.-B. Huang, D. H. Wang and Y. Lan, “Extreme Learning Machines: a Survey,” Int. J. Mach. Learn. & Cyber, pp. 107-122, 2011. 
 * Q. Liu, Q. He and Z. Shi, “Extreme Support Vector Machine Classifier,” Advances in Knowledge Discovery and Data Mining, pp. 222-233, 2008. 
