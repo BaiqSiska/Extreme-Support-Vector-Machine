@@ -5,3 +5,7 @@ Extreme Support Vector Machine (ESVM) combines between Support Vector Machine an
 ELM is a learning method that can quickly analyze, but ELM does not look for an optimal hyperplane. ELM only minimizes the sum of square errors between classes and outputs in Multi-Layer Perceptron (MLP).  SVM produces better accuracy in solving classification cases but takes a long time in the classification process. Therefore, SVM and ELM will be combined to overcome the classification problem.
 
 The ELM kernel is a combination of kernel tricks and ELM. The ELM kernel works very fast in the analysis but cannot find the optimal hyperplane margin value. ELM kernel minimizes the number of square error between class and MLP output. However, the characteristics of ELM kernel are not suitable for solving classification problems. Therefore, SVM is combined with ELM kernel to overcome this problem. SVM with the ELM kernel has referred to as the Extreme Support Vector Machine (SVM).
+
+The picture below is an architecture of ESVM:
+
+![ESVM](https://user-images.githubusercontent.com/10173320/81541609-8f353980-939d-11ea-9469-ded508f19495.png)
