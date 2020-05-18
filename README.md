@@ -12,6 +12,7 @@ Refrences:
 * W. Zhu, J. Miao and L. Qing, Extreme Support Vector Regression, vol. 16, Heidelberg: Springer, 2014, pp. 25-34.
 * M. A. Murugavel and S. Ramakrishnan, “Hierarchical Multi-Class SVM with ELM Kernel for Epileptic EEG Signal Classification,” Medical & Biological Engineering & Computing, pp. 149-161, 2016. 
 * B. Frénay and M. Verleysen, “Using SVM with Randomised Feature Spaces: An Extreme Learning Machine,” in European Symposium on Artificial Neural Networks – Computational Intelligence, Bruges, 2010. 
+* https://github.com/wentaozhu/Extreme-support-vector-regression
 
 ---
 Note : Matlab is The application that I use to solve this problem. So that make sure it is installed on your computer.
